@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scenario Landing Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #1e1e2f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-header {
+      background-color: #343a40;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      padding: 10px;
+      font-size: 1.1em;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .card-title {
+      font-size: 1.1em;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .read-more {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .read-more:hover {
+      background-color: #0056b3;
+    }
+
+    @media (max-width: 600px) {
+      .card img {
+        height: 150px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Scenario Overview</h1>
+    <p>Explore the different scenarios across Health, Energy, and Transport sectors</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Card 1: Health -->
+    <div class="card">
+      <div class="card-header">Health Scenario</div>
+      <img
+        src="https://media.post.rvohealth.io/wp-content/uploads/2020/05/Young-women-with-type-one-diabetes-1200x628-facebook-1200x628.jpg"
+        height="200" width="400" alt="Health">
+      <div class="card-body">
+        <div class="card-title">Diabetic Shock in a Patient</div>
+        <a href="/static/scenarios/health.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <!-- Card 2: Energy -->
+    <div class="card">
+      <div class="card-header">Energy Scenario</div>
+      <img src="https://zhl.org.in/images/intro-images/Fleet%20management.jpg" height="200" width="400" alt="Energy">
+      <div class="card-body">
+        <div class="card-title">Ambulance Fleet Management</div>
+        <a href="/static/scenarios/energy.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <!-- Card 3: Transport -->
+    <div class="card">
+      <div class="card-header">Transport Scenario</div>
+      <img
+        src="https://img.freepik.com/free-vector/traffic-accident-isometric-composition-with-crash-car-motorcycle-injured-motorcyclist-road-bystanders-vector-illustration_1284-71289.jpg?semt=ais_hybrid&w=740"
+        height="200" width="400" alt="Transport">
+      <div class="card-body">
+        <div class="card-title">Road Traffic Accident</div>
+        <a href="/static/scenarios/transport.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <!-- Card 4: Health + Energy -->
+    <div class="card">
+      <div class="card-header">Health + Energy Scenario</div>
+      <img src="https://www.acmeconsulting.in/images/digital/smart-ambulance-system.webp" height="200" width="400"
+        alt="Health + Energy">
+      <div class="card-body">
+        <div class="card-title">Smart Ambulance Operations </div>
+        <a href="/static/scenarios/he.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <!-- Card 5: Health + Transport -->
+    <div class="card">
+      <div class="card-header">Health + Transport Scenario</div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02DqkAuZa9GLxcdyGfvR0Szld-vDh9VknpQ&s"
+        height="200" width="400" alt="Health + Transport">
+      <div class="card-body">
+        <div class="card-title">Accident Case with Spinal Injury and Severe Bleeding</div>
+        <a href="/static/scenarios/ht.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <!-- Card 6: Energy + Transport -->
+    <div class="card">
+      <div class="card-header">Energy + Transport Scenario</div>
+      <img src="https://s19538.pcdn.co/wp-content/uploads/2023/08/Motiv-Argo-EV-truck.png" height="200" width="400"
+        alt="Energy + Transport">
+      <div class="card-body">
+        <div class="card-title">Smart Electric Delivery Trucks with Energy Optimization</div>
+        <a href="/static/scenarios/te.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <!-- Card 7: Health + Energy + Transport -->
+    <div class="card">
+      <div class="card-header">Health + Energy + Transport Scenario</div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg7AWyz6XazrtsHA_r8SvoeWhAxGeGF5pmjg&s"
+        height="200" width="400" alt="H+E+T">
+      <div class="card-body">
+        <div class="card-title">Ambulance Experience Optimization</div>
+        <a href="/static/scenarios/hte.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

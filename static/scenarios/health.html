@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Health Scenario – Diabetic Shock Case Study</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f7f9fc;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1e1e2f;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2em;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 1.1em;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #1e1e2f;
+      border-left: 5px solid #007BFF;
+      padding-left: 10px;
+      margin-top: 40px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    footer {
+      background-color: #1e1e2f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .back-link:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Health Scenario: Diabetic Shock in a Patient</h1>
+    <p>Case Study of Emergency Response Using Healthcare Sensors and Actuators</p>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>1. Scenario Description</h2>
+      <p>A patient with a history of diabetes experiences a sudden diabetic shock due to hypoglycemia (low blood sugar).
+        The patient's condition is critical, requiring immediate intervention. The healthcare system steps in to monitor
+        glucose levels, administer appropriate treatments, and ensure vital signs remain stable through sensor-actuator
+        interaction.</p>
+    </section>
+
+    <section class="section">
+      <h2>2. Sensors and Actuators Used</h2>
+      <p><strong>Sensors:</strong></p>
+      <ul>
+        <li>Glucose Sensor – Monitors blood sugar levels continuously.</li>
+        <li>Heart Rate Sensor – Tracks pulse and cardiac activity.</li>
+        <li>Blood Pressure Sensor – Checks circulatory health.</li>
+        <li>ECG Sensor – Monitors heart rhythms and detects arrhythmias.</li>
+        <li>Temperature Sensor – Tracks for signs of hypothermia or fever.</li>
+        <li>Oxygen Saturation (SpO₂) Sensor – Ensures proper oxygen levels.</li>
+        <li>Respiratory Rate Sensor – Measures breathing stability.</li>
+        <li>Pain Sensor – Detects signs of discomfort due to shock.</li>
+      </ul>
+
+      <p><strong>Actuators:</strong></p>
+      <ul>
+        <li>Insulin Pump – Delivers controlled insulin doses if needed.</li>
+        <li>Glucagon Pump – Administers glucagon to raise blood sugar.</li>
+        <li>Hydration Infuser – Rehydrates the patient with fluids.</li>
+        <li>IV Fluid Pump – Increases blood volume and pressure.</li>
+        <li>Alert System – Notifies nearby healthcare providers.</li>
+        <li>Auto-Correction Glucose Pump – Stabilizes glucose levels automatically.</li>
+        <li>Smart Bed or Cradle – Adjusts patient position to reduce complications.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>3. Sensors and Actuators Used in Simulation</h2>
+      <p>The simulation replicates sensor-actuator responses in real-time:</p>
+      <ul>
+        <li>Glucose sensor triggers glucagon pump during hypoglycemia.</li>
+        <li>Heart rate and blood pressure sensors activate hydration infusers if vitals drop.</li>
+        <li>ECG sensor detects cardiac anomalies and alerts providers.</li>
+        <li>Temperature and pain sensors trigger corresponding interventions.</li>
+        <li>Alert system notifies responders upon critical changes.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>4. Communication Mechanisms</h2>
+      <ul>
+        <li><strong>Wireless Transmission:</strong> Sensors send data via Wi-Fi/BLE.</li>
+        <li><strong>Cloud Integration:</strong> Data is analyzed in real-time on cloud platforms.</li>
+        <li><strong>Bi-directional Communication:</strong> Commands are sent to actuators as needed.</li>
+        <li><strong>Healthcare Dashboards:</strong> Central dashboard displays real-time vitals.</li>
+        <li><strong>Alerts and Notifications:</strong> Trigger immediate human intervention.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>5. Algorithms and Heuristics Used</h2>
+      <ul>
+        <li><strong>Data Fusion:</strong> Combines sensor inputs for better decision-making.</li>
+        <li><strong>Decision-Making:</strong> Determines insulin/glucagon dosage and hydration actions.</li>
+        <li><strong>Predictive Models:</strong> Anticipates hypoglycemia/hyperglycemia using historical data.</li>
+        <li><strong>Feedback Loops:</strong> Real-time adjustments based on ECG and vitals.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>6. Data Flow and Simulation Relevance</h2>
+      <p>Sensor data is streamed to the cloud, triggering interventions like glucagon delivery based on thresholds.
+        Real-time loops assess and stabilize the patient, mimicking actual emergency protocols in smart healthcare
+        environments. This simulation aligns with systems used in hospitals and home-based monitoring solutions.</p>
+    </section>
+
+    <section class="section">
+      <h2>7. Extensions and Future Scalability</h2>
+      <ul>
+        <li>Adding advanced sensors like CGM and impedance monitors.</li>
+        <li>Integration with ambulance and ER systems for end-to-end care.</li>
+        <li>AI models to predict diabetic shock based on lifestyle and history.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>8. Summary</h2>
+      <p>This case study illustrates how modern sensor-actuator systems enhance emergency healthcare by automating
+        responses to diabetic shock. Real-time monitoring and intervention improve patient safety and offer scalable
+        solutions for broader health emergencies.</p>
+    </section>
+
+    <a href="/static/scenarios.html" class="back-link">← Back to Landing Page</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Smart Healthcare Systems – All rights reserved.
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Energy Scenario – Ambulance Fleet Management</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f7f9fc;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1e1e2f;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2em;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 1.1em;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #1e1e2f;
+      border-left: 5px solid #28a745;
+      padding-left: 10px;
+      margin-top: 40px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    footer {
+      background-color: #1e1e2f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .back-link:hover {
+      background-color: #1e7e34;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Energy Scenario: Ambulance Fleet Management</h1>
+    <p>Case Study on Sustainable Energy Optimization for Emergency Response Vehicles</p>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>1. Scenario Description</h2>
+      <p>This scenario focuses on the energy management of electric ambulances in a smart emergency response system. To
+        avoid energy depletion and ensure fleet readiness, the system monitors battery levels, manages smart charging
+        stations, and balances power consumption during both active and idle times.</p>
+    </section>
+
+    <section class="section">
+      <h2>2. Sensors and Actuators Used</h2>
+      <p><strong>Sensors:</strong></p>
+      <ul>
+        <li>Battery Voltage Sensor – Monitors current voltage and battery health.</li>
+        <li>Current Sensor – Measures current during charging cycles.</li>
+        <li>Battery Health/Fuel Efficiency Sensor – Tracks energy performance and aging.</li>
+        <li>Environmental Temperature Sensor – Adjusts HVAC for energy-efficient climate control.</li>
+        <li>Power Meter & Current Sensor – Analyzes power usage and load distribution.</li>
+        <li>Energy Consumption Meters – Measures total energy usage in real time.</li>
+        <li>Power Failure Detection Sensor – Detects outages and triggers backup systems.</li>
+      </ul>
+
+      <p><strong>Actuators:</strong></p>
+      <ul>
+        <li>Energy Management System (EMS) – Prioritizes and distributes energy to vital systems.</li>
+        <li>Charging Station Control – Adjusts EV charging levels based on needs and timing.</li>
+        <li>Dynamic Load Balancer – Redistributes energy among fleet vehicles.</li>
+        <li>Uninterruptible Power Supply (UPS) – Ensures backup energy during outages.</li>
+        <li>Smart Switch for Grid – Connects/disconnects ambulances from grid based on power availability.</li>
+        <li>LED Lighting – Activates only when ambulance is in use to save energy.</li>
+        <li>Energy Optimizer – Fine-tunes system consumption for maximum efficiency.</li>
+        <li>Backup Generator Activation – Keeps systems alive during total power failure.</li>
+        <li>Wireless Charging Pad – Enables charging during traffic idle times.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>3. Simulation Workflow</h2>
+      <ul>
+        <li><strong>Battery Monitoring:</strong> EMS constantly checks battery levels and adjusts power usage
+          accordingly.</li>
+        <li><strong>Load Balancing:</strong> Energy needs are evenly distributed among ambulances to prevent individual
+          depletion.</li>
+        <li><strong>Charging Station Management:</strong> Charging is optimized to avoid overloading and ensure
+          readiness.</li>
+        <li><strong>Emergency Power Management:</strong> UPS or generators kick in when battery voltage drops or grid
+          fails.</li>
+        <li><strong>Traffic Optimization:</strong> During traffic or idle times, systems enter low-power mode and
+          initiate wireless charging.</li>
+        <li><strong>Efficiency Adjustments:</strong> HVAC and non-critical systems are scaled down in real-time to save
+          battery.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>4. Communication and Data Flow</h2>
+      <ul>
+        <li><strong>Battery Status:</strong> Real-time voltage and current data guide EMS decisions.</li>
+        <li><strong>Charging Control:</strong> Charging parameters are controlled to optimize duration and energy use.
+        </li>
+        <li><strong>Load Redistribution:</strong> Energy is dynamically balanced across fleet based on current demand.
+        </li>
+        <li><strong>Environmental Feedback:</strong> HVAC and internal systems respond to outside temperature data to
+          conserve power.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>5. Algorithms and Heuristics Used</h2>
+      <ul>
+        <li><strong>Energy Distribution Algorithm:</strong> Prioritizes mission-critical devices and throttles
+          non-essentials.</li>
+        <li><strong>Charging Optimization Algorithm:</strong> Adjusts charge rate and time depending on usage needs and
+          battery health.</li>
+        <li><strong>Load Balancing Heuristic:</strong> Evenly spreads energy consumption to extend overall operational
+          time.</li>
+        <li><strong>Efficiency Heuristic:</strong> Dynamically adjusts settings to increase overall vehicle and fleet
+          sustainability.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>6. Future Extensions</h2>
+      <ul>
+        <li><strong>Smart Grid Integration:</strong> Connect ambulances to renewable sources like solar for eco-friendly
+          charging.</li>
+        <li><strong>Predictive Energy Models:</strong> Use AI to anticipate energy usage and pre-schedule charging.</li>
+      </ul>
+      <p>This system provides a reliable, scalable model for future green ambulance fleets in smart cities.</p>
+    </section>
+
+    <a href="/static/scenarios.html" class="back-link">← Back to Landing Page</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Smart Energy Systems – All rights reserved.
+  </footer>
+
+</body>
+
+</html>

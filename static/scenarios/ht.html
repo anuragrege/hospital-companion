@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Health + Transport Scenario – Emergency RTA Response</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f8fafd;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2em;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 1.1em;
+      opacity: 0.95;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #2c3e50;
+      border-left: 5px solid #3498db;
+      padding-left: 10px;
+      margin-top: 40px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      background-color: #3498db;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .back-link:hover {
+      background-color: #217dbb;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Integrated Emergency Scenario: Health + Transport</h1>
+    <p>RTA Case with Spinal Injury and Severe Bleeding – Sensor-Driven Smart Response</p>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>1. Scenario Description</h2>
+      <p>An unconscious patient is involved in a severe road traffic accident (RTA) with critical conditions such as
+        spinal injury, major bleeding, and head trauma. Multiple sensors and actuators coordinate real-time emergency
+        actions, stabilizing the patient during rescue and transport to the hospital.</p>
+    </section>
+
+    <section class="section">
+      <h2>2. Sensors and Actuators Used</h2>
+      <p><strong>Sensors:</strong></p>
+      <ul>
+        <li>Collision Sensor – Detects accident impact and initiates emergency protocol.</li>
+        <li>Accelerometer – Measures G-forces to assess accident severity.</li>
+        <li>Heart Rate Sensor – Tracks patient’s pulse for early detection of shock.</li>
+        <li>Blood Pressure Sensor – Monitors circulation stability and bleeding effects.</li>
+        <li>ECG Sensor – Evaluates cardiac activity and risk of arrhythmia.</li>
+        <li>Spinal Pressure Sensor – Triggers smart brace when spinal damage is suspected.</li>
+        <li>Hemoglobin Sensor – Detects signs of internal or external bleeding.</li>
+        <li>Motion Sensor – Detects spinal movement, minimizing further injury.</li>
+        <li>Temperature Sensor – Tracks body temperature for trauma or shock signs.</li>
+        <li>SpO₂ Sensor – Ensures oxygen delivery and respiratory monitoring.</li>
+      </ul>
+
+      <p><strong>Actuators:</strong></p>
+      <ul>
+        <li>Wound Sealer – Instantly stops active external bleeding.</li>
+        <li>Smart Spine Brace – Automatically immobilizes the spine on injury detection.</li>
+        <li>Immobilizer Actuator – Restricts movement during critical transport.</li>
+        <li>Emergency Alert System – Notifies EMS, hospital, and rescue teams.</li>
+        <li>Defibrillator – Activates if cardiac arrest is detected.</li>
+        <li>Emergency Broadcast Unit – Transmits patient data to hospital in real-time.</li>
+        <li>Smart Cradle – Provides secure spinal/head transport stabilization.</li>
+        <li>Oxygen Infuser – Regulates oxygen delivery based on SpO₂ levels.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>3. Communication Mechanisms</h2>
+      <ul>
+        <li><strong>Wireless Transmission:</strong> BLE/5G for real-time sensor-actuator communication.</li>
+        <li><strong>Cloud Integration:</strong> Sensor data processed at the edge/cloud for fast decisions.</li>
+        <li><strong>Bi-directional Control:</strong> Actuators confirm actions (e.g., brace applied, wound sealed).</li>
+        <li><strong>Emergency Dashboard:</strong> Vitals and events displayed live at hospital ED.</li>
+        <li><strong>Data Synchronization:</strong> Patient data syncs with EHR in real time.</li>
+        <li><strong>Location Tracking:</strong> GPS helps route optimization and ETA tracking.</li>
+        <li><strong>Pre-Arrival Alert:</strong> Sends hospital a detailed condition report before arrival.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>4. Algorithms and Heuristics Used</h2>
+      <ul>
+        <li><strong>Spinal Detection Heuristic:</strong> Combines pressure/motion data to detect spinal damage.</li>
+        <li><strong>Bleeding Response Algorithm:</strong> Hemoglobin drop triggers immediate sealing actions.</li>
+        <li><strong>Real-time Data Fusion:</strong> Combines HR, BP, ECG to detect life-threatening patterns.</li>
+        <li><strong>Cardiac/Temp Control:</strong> Body temperature changes trigger heating/cooling actions.</li>
+        <li><strong>GPS Routing System:</strong> Calculates fastest route to hospital dynamically.</li>
+        <li><strong>Multi-Agent Response:</strong> Devices coordinate actions using agent-based simulation.</li>
+        <li><strong>Action Prioritization:</strong> Emergency care steps ordered by urgency (e.g., bleeding > cooling).
+        </li>
+        <li><strong>Predictive Models:</strong> Anticipates outcomes like cardiac arrest or hypoxia based on trends.
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>5. Data Flow and Simulation Relationship</h2>
+      <p>This simulation models a high-stakes emergency where each second counts. It integrates real-time sensor data
+        with life-saving actuators and decision-making algorithms. The health data collected is continuously transmitted
+        and used to trigger necessary interventions—stabilizing the patient during transport and preparing hospital
+        staff before arrival.</p>
+      <p>Simulation results can inform real-world deployments and improvements in emergency care protocols.</p>
+    </section>
+
+    <section class="section">
+      <h2>6. Future Extensions and Scalability</h2>
+      <ul>
+        <li><strong>Extended Sensors:</strong> Future devices may include smart glasses for diagnostics, glucose
+          monitoring, etc.</li>
+        <li><strong>Integrated Systems:</strong> Health + Transport + Energy scenarios allow holistic EMS support (e.g.,
+          charging mobile units).</li>
+        <li><strong>Smart Hospital Feedback:</strong> Directly integrate ambulance data into ER workflows and hospital
+          automation.</li>
+      </ul>
+      <p>This integrated health-transport framework provides a robust, scalable foundation for handling critical
+        emergencies more effectively in smart city environments.</p>
+    </section>
+
+    <a href="/static/scenarios.html" class="back-link">← Back to Landing Page</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Smart Emergency Systems – All rights reserved.
+  </footer>
+
+</body>
+
+</html>

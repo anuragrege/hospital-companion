@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transport Scenario – Road Traffic Accident</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f7f9fc;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1e1e2f;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2em;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 1.1em;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #1e1e2f;
+      border-left: 5px solid #007BFF;
+      padding-left: 10px;
+      margin-top: 40px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    footer {
+      background-color: #1e1e2f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .back-link:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Transport Scenario: Road Traffic Accident</h1>
+    <p>Case Study on Emergency Ambulance Routing and Smart Transport Systems</p>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>1. Scenario Description</h2>
+      <p>An RTA (Road Traffic Accident) occurs at a busy city intersection. Multiple vehicles are involved, and
+        emergency services must respond swiftly. The ambulance must navigate through traffic congestion caused by the
+        incident. The transport system assists by optimizing routes, managing traffic signals, and clearing lanes using
+        real-time sensor data and actuators.</p>
+    </section>
+
+    <section class="section">
+      <h2>2. Sensors and Actuators Used</h2>
+      <p><strong>Sensors:</strong></p>
+      <ul>
+        <li>GPS Sensor – Tracks ambulance location in real-time.</li>
+        <li>Traffic Flow Sensor – Detects traffic congestion and flow speed.</li>
+        <li>Road Vibration Sensor – Monitors road quality and conditions.</li>
+        <li>LIDAR Sensor – Scans for obstacles and hazards in the vehicle's path.</li>
+        <li>Traffic Density Sensor – Monitors real-time congestion on roads.</li>
+        <li>Radar Sensor – Detects moving objects to avoid collisions.</li>
+        <li>Speed Sensor – Tracks ambulance velocity for route adjustments.</li>
+        <li>Weather Sensors – Captures rain, fog, or snow for adaptive routing.</li>
+      </ul>
+
+      <p><strong>Actuators:</strong></p>
+      <ul>
+        <li>Auto-Routing System – Calculates optimal emergency route in real time.</li>
+        <li>Emergency Signal Override – Overrides red lights to allow ambulance priority.</li>
+        <li>Lane Guidance HUD – Shows ideal lanes via head-up display to the driver.</li>
+        <li>Emergency Window Opener – Ensures proper ventilation automatically.</li>
+        <li>Priority Signal Communication – Coordinates with city traffic lights.</li>
+        <li>Redundant Path Finder – Switches routing logic if GPS fails.</li>
+        <li>Lane Signal Actuator – Opens shoulder lanes or alternate paths.</li>
+        <li>Speed Limit Adjuster – Dynamically changes ambulance speed caps for safety.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>3. Simulation in the Transport System</h2>
+      <p>Simulation flow:</p>
+      <ul>
+        <li><strong>Start:</strong> GPS tracks ambulance and begins route calculation.</li>
+        <li><strong>Traffic Detected:</strong> Traffic sensors flag congestion, and the system re-routes.</li>
+        <li><strong>HUD Update:</strong> New path is displayed on the lane guidance system.</li>
+        <li><strong>Signal Override:</strong> Traffic lights turn green for ambulance passage.</li>
+        <li><strong>Obstacle Avoidance:</strong> LIDAR/radar detect obstacles; alerts are sent.</li>
+        <li><strong>Weather Check:</strong> Sensors detect conditions and adjust speed/route accordingly.</li>
+        <li><strong>Hospital Arrival:</strong> ETA calculated and shared with hospital staff.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>4. Communication and Data Flow</h2>
+      <ul>
+        <li><strong>Real-Time Data Transmission:</strong> All sensors transmit data to the central control platform or
+          cloud.</li>
+        <li><strong>Actuator Commands:</strong> Calculations trigger actuator responses like route changes or traffic
+          light overrides.</li>
+        <li><strong>Feedback Loop:</strong> Sensors continuously inform the system to adapt decisions dynamically.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>5. Algorithms and Heuristics Used</h2>
+      <ul>
+        <li><strong>Route Optimization:</strong> Based on traffic, vibration, and weather data.</li>
+        <li><strong>Signal Override Heuristic:</strong> Prioritizes ambulance using smart lights.</li>
+        <li><strong>Speed Control:</strong> Ensures safe speed based on real-time road/weather data.</li>
+        <li><strong>Lane Switching:</strong> Provides optimal lanes via HUD interface.</li>
+        <li><strong>Emergency Lane Creation:</strong> Activates shoulder lanes when traffic is jammed.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>6. Data Flow and Simulation Relationship</h2>
+      <p>The simulation mirrors real-world smart city transport systems. Ambulance location, traffic flow, and weather
+        conditions are processed to guide the vehicle in real time. The actuators respond by adjusting routing, opening
+        emergency paths, and coordinating with infrastructure, ensuring rapid emergency response.</p>
+    </section>
+
+    <section class="section">
+      <h2>7. Summary</h2>
+      <p>This transport case study demonstrates how intelligent infrastructure can drastically improve emergency
+        response time. Through the use of sensors, smart actuators, and real-time data analytics, the system ensures the
+        ambulance bypasses traffic, receives green lights, and safely reaches the emergency site, potentially saving
+        lives during critical incidents.</p>
+    </section>
+
+    <a href="/static/scenarios.html" class="back-link">← Back to Landing Page</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Smart Transportation Systems – All rights reserved.
+  </footer>
+
+</body>
+
+</html>

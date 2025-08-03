@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Health + Energy Scenario – Ambulance Fleet Operations</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f4f9fc;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #34495e;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2em;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 1.1em;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #2c3e50;
+      border-left: 5px solid #1abc9c;
+      padding-left: 10px;
+      margin-top: 40px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    footer {
+      background-color: #34495e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      background-color: #1abc9c;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .back-link:hover {
+      background-color: #148f77;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Health + Energy Integrated Scenario</h1>
+    <p>Smart Ambulance Operations with Patient Monitoring and Energy Optimization</p>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>1. Scenario Description</h2>
+      <p>This scenario integrates real-time patient monitoring with energy management in EV-based ambulances. It ensures
+        optimal energy use for vehicle systems and uninterrupted operation of life-saving medical equipment, even during
+        long transports, charging cycles, or energy constraints.</p>
+    </section>
+
+    <section class="section">
+      <h2>2. Sensors and Actuators Used</h2>
+      <p><strong>Sensors:</strong></p>
+      <ul>
+        <li>Battery Voltage Sensor – Tracks charge level and energy status.</li>
+        <li>Battery Health Sensor – Monitors battery degradation and capacity.</li>
+        <li>SpO₂ Sensor – Measures blood oxygen levels in patients.</li>
+        <li>ECG Sensor – Continuously monitors heart function.</li>
+        <li>Environmental Temperature Sensor – Controls HVAC based on conditions.</li>
+        <li>Current Sensor – Detects charging current at stations.</li>
+        <li>Energy Consumption Meter – Monitors energy use of non-medical systems.</li>
+        <li>Power Usage Meter – Tracks medical equipment energy demand.</li>
+        <li>Traffic Monitoring System – Predicts route delays to optimize energy use.</li>
+      </ul>
+
+      <p><strong>Actuators:</strong></p>
+      <ul>
+        <li>Energy Management System (EMS) – Distributes energy efficiently.</li>
+        <li>Charging Station Control – Regulates charging cycles.</li>
+        <li>Surge Protector – Shields devices from voltage spikes.</li>
+        <li>Smart Thermostat – Adjusts cabin temperature dynamically.</li>
+        <li>LED Lights – Motion-activated, low-power illumination.</li>
+        <li>Backup Generator – Ensures critical system operation on battery failure.</li>
+        <li>Power Regulator – Prevents overdraw from medical equipment.</li>
+        <li>Wireless Charging Pad – Allows idle charging during traffic.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>3. Simulation Process</h2>
+      <ul>
+        <li><strong>Battery Monitoring:</strong> EMS continuously reads battery sensors. If energy is low, it shifts
+          power to critical systems and initiates smart charging.</li>
+        <li><strong>Patient Monitoring:</strong> Vital signs from SpO₂ and ECG are used by EMS to dynamically reallocate
+          energy, prioritizing life-saving tools.</li>
+        <li><strong>Traffic-Based Optimization:</strong> Real-time GPS + traffic data allows route adjustments and
+          efficient power use during delays or slow traffic.</li>
+        <li><strong>Emergency Power Response:</strong> In critical moments (e.g., cardiac events), EMS ensures power to
+          defibrillators. Backup generators activate if battery fails.</li>
+        <li><strong>Charging Management:</strong> While docked or idle, current sensors regulate safe and efficient
+          charging, even wirelessly during traffic stops.</li>
+        <li><strong>Environmental Control:</strong> Smart HVAC adapts to internal temperature using minimal energy,
+          maintaining comfort and equipment stability.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>4. Communication and Data Flow</h2>
+      <ul>
+        <li><strong>Vital Data Flow:</strong> ECG and SpO₂ data sent to EMS and hospital dashboard for real-time
+          analysis and decision-making.</li>
+        <li><strong>Energy Data:</strong> Battery health, voltage, and usage meters inform the EMS, ensuring proper load
+          balancing.</li>
+        <li><strong>Traffic & Routing:</strong> GPS and traffic inputs dynamically update energy allocation and optimize
+          travel path.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>5. Algorithms and Heuristics</h2>
+      <ul>
+        <li><strong>Energy Optimization Algorithm:</strong> Balances medical vs. non-critical energy use using sensor
+          feedback.</li>
+        <li><strong>Traffic-Aware Energy Management:</strong> Adjusts consumption based on traffic predictions and idle
+          time.</li>
+        <li><strong>Backup Activation Algorithm:</strong> Triggers generator on voltage drop or system failure for
+          uninterrupted care.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>6. Future Extensions</h2>
+      <ul>
+        <li><strong>Smart Grid Integration:</strong> Allow ambulances to charge using renewable energy sources when
+          docked or idle.</li>
+        <li><strong>Predictive Battery Maintenance:</strong> Analyze usage trends and battery degradation to prevent
+          failures proactively.</li>
+        <li><strong>AI-Driven Analytics:</strong> Predict energy demand per route based on historical and patient data.
+        </li>
+      </ul>
+      <p>This future-facing framework provides a sustainable, scalable approach to managing both healthcare and energy
+        needs in smart emergency vehicles.</p>
+    </section>
+
+    <a href="/static/scenarios.html" class="back-link">← Back to Landing Page</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Smart EMS Systems – All rights reserved.
+  </footer>
+
+</body>
+
+</html>

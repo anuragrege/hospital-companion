@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Finder Result</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f9;
+    }
+
+    h1,
+    h3 {
+      text-align: center;
+    }
+
+    .result-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    a {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      color: #4CAF50;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #45a049;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 200px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="result-container">
+    <h1>Hospital Finder Results</h1>
+
+    <h3>Hospital Information:</h3>
+    <p>{{ result_data["hospital_info"] }}</p>
+
+    <h3>Hospital Details:</h3>
+    <p>{{ result_data["hospital_details"] }}</p>
+
+    <h3>Notification:</h3>
+    <p>{{ result_data["notification"] }}</p>
+
+    <div class="button-container">
+      <a href="/">Go Back</a>
+      <a href="/disease"><button>Check Possible Diseases</button></a>
+    </div>
+  </div>
+
+</body>
+
+</html>

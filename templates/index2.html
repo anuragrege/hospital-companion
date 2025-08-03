@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Diagnosis</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Health Diagnosis</h1>
+    <form action="/predict_disease" method="POST">
+      <label for="ecg">ECG Signal:</label>
+      <input type="number" name="ecg" required>
+
+      <label for="temp">Temperature (°C):</label>
+      <input type="number" name="temp" required>
+
+      <label for="pulse">Pulse (bpm):</label>
+      <input type="number" name="pulse" required>
+
+      <label for="bp_systolic">Blood Pressure (Systolic mmHg):</label>
+      <input type="number" name="bp_systolic" required>
+
+      <label for="bp_diastolic">Blood Pressure (Diastolic mmHg):</label>
+      <input type="number" name="bp_diastolic" required>
+
+      <label for="spo2">SpO2 (%):</label>
+      <input type="number" name="spo2" required>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    {% if equation %}
+    <h2>Results</h2>
+    <p><strong>Equation:</strong> {{ equation }} </p>
+    <p><strong>Disease Name:</strong> {{ disease_name }}</p>
+    <p><strong>8-Bit Representation:</strong> {{ bit_representation }}</p>
+    <p><strong>Hexadecimal Representation:</strong> {{ hex_representation }}</p>
+    {% endif %}
+  </div>
+</body>
+
+</html>

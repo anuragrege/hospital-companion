@@ -1,0 +1,50 @@
+﻿hospital_name,facilities,suburb,hospital_lat,hospital_lon,weather,traffic,average_speed
+SRM Global Hospital,"['Neuro', 'General Physician', 'Surgeon']",Potheri,12.82306,80.04777,rainy,high,39.64071528604712
+K. R. Hospital,"['ENT', 'Neuro', 'Pediatrician']",Guduvancheri,12.84222,80.0575,rainy,high,71.36439568883479
+Kumaran Hospital,"['Surgeon', 'Neurosurgeon']",Guduvancheri,12.8425,80.06056,sunny,high,71.53245403127123
+Kaelyn Care Hospital,"['Neuro', 'General Physician']",Guduvancheri,12.84694,80.05806,sunny,high,38.978053632373886
+Christudas Hospital ,"['Neuro', 'General Physician']",Guduvancheri,12.85139,80.06639,rainy,low,58.61263978418965
+Primary Health Care Centre,"['Surgeon', 'Neurosurgeon']",Nandhivaram,12.84889,80.06444,cloudy,low,75.06124970424864
+Deepam Hospital,"['Neurosurgeon', 'Orthopedic']",Urapakkam,12.8675,80.07583,rainy,low,79.89915961412439
+Thalir Hospital,"['Neurosurgeon', 'Orthopedic']",Urapakkam,12.85889,80.07556,rainy,low,79.89915961412439
+Nithya Guru Hospital,"['Surgeon', 'Neurosurgeon']",Urapakkam,12.8625,80.07444,rainy,medium,65.74680674100318
+Hosanna Hospital,"['Neurosurgeon', 'Orthopedic']",Urapakkam,12.86667,80.08333,cloudy,medium,40.29277055104174
+RKP MultiSpeciality Hospital,"['Neurosurgeon', 'Orthopedic']",Guduvancheri,12.85444,80.06778,sunny,low,70.83701420001012
+A R Hospital,"['Neuro', 'General Physician', 'Surgeon']",Vandalur,12.86917,80.10972,cloudy,medium,49.94357896567307
+Dr. A.K. Venkatachalam Ortho Hospital,"['Surgeon', 'Neurosurgeon']",Vandalur,12.87917,80.07972,cloudy,low,56.10369101684907
+One Health Super Speciality Hospital,"['ENT', 'Neuro', 'Pediatrician']",Vandalur,12.87806,80.07917,cloudy,low,71.83301577
+Magzhil Medical Center,"['Neuro', 'General Physician', 'Surgeon']","Manivakkam, Vandalur",12.89306,80.06472,sunny,low,45.03631208599472
+OPHA Rehabilitation Hospital,"['Neuro', 'General Physician', 'Surgeon']","Manivakkam, Vandalur",12.89139,80.05889,cloudy,high,62.7702753
+Santhoshi Hospital,"['Neuro', 'ENT', 'Pediatrician']","Mudichur, Perungulathur",12.91361,80.07056,rainy,high,36.91540043249766
+Annai Arul Hospital,"['ENT', 'Neuro', 'Pediatrician']",Perungulathur,12.92056,80.0875,rainy,high,55.50233981255552
+Saradha Hospital,"['Surgeon', 'Neurosurgeon']",Perungulathur,12.90806,80.0925,sunny,high,46.62247263519718
+Deekshalaya Health Hospital,"['Neuro', 'ENT', 'Pediatrician']",Perungulathur,12.90528,80.09194,rainy,medium,68.85987444495996
+Jawahar Hospital,"['Neuro', 'General Physician']",Tambaram,12.93306,80.12278,cloudy,low,54.40915213843695
+Kasthuri Hospital,"['General Physician', 'ENT']",Tambaram,12.92667,80.11444,rainy,high,75.24132781794202
+Sri Gokulam MultiSpeciality Hospital,"['Neuro', 'ENT', 'Pediatrician']",Tambaram,12.92528,80.10722,rainy,high,33.68200790425402
+Hindu Mission Hospital,"['ENT', 'General Physician', 'Neurosurgeon']",Tambaram,12.92361,80.11389,sunny,medium,46.11686791016665
+Sri Sai Clinic and Lab,"['ENT', 'Surgeon']",Kattankulathur,12.80861,80.03056,rainy,medium,75.28923939335792
+Christia Diagnostic Center,"['Surgeon', 'Neurosurgeon']",Kattankulathur,12.80278,80.02944,rainy,low,35.61692176
+Athvi JS Hospital ,"['Neurosurgeon', 'Orthopedic']",Maraimalai Nagar,12.79944,80.02361,rainy,medium,46.591599509200236
+Bakya Hospital,"['Surgeon', 'Neurosurgeon']",Maraimalai Nagar,12.78972,80.035,sunny,high,47.59617251489499
+Pranav Ortho Care Hospital,"['ENT', 'Neuro', 'Pediatrician']",Maraimalai Nagar,12.79306,80.02306,cloudy,high,36.79317007479075
+Sri Surya Hospital ,"['Neuro', 'General Physician']",Maraimalai Nagar,12.79528,80.02167,rainy,high,72.57563992090948
+Sanjeevi Health care,"['Neuro', 'General Physician']","Peramanur, Maraimalai Nagar",12.78667,80.01472,sunny,low,39.37340399588446
+Sri Vilvam Hospital ,"['Neuro', 'General Physician']","Peramanur, Maraimalai Nagar",12.77361,80.01389,sunny,high,37.228373562134436
+NIRAHHS ,"['Neuro', 'ENT', 'Pediatrician']","Melrosapuram, Maraimalai Nagar ",12.77111,80.01111,sunny,medium,35.68787791716371
+Sri Balaji Hospital,"['ENT', 'Neuro', 'Pediatrician']",Singaperumal Koil,12.76056,80.00361,rainy,low,46.611399374412414
+Sri Venkateshwara Hospital ,"['Neuro', 'General Physician']",Singaperumal Koil,12.76167,80.0025,cloudy,medium,40.38665870873957
+Sree Sakthi Hospital ,"['ENT', 'General Physician', 'Neurosurgeon']",Singaperumal Koil,12.76056,80.00194,rainy,high,51.221531657222556
+LA MultiSpeciality Clinic ,"['Neuro', 'ENT', 'Pediatrician']",Singaperumal Koil,12.75722,80.0025,cloudy,low,38.27544740975532
+Arokai Annai Hospital ,"['Neuro', 'General Physician']",Singaperumal Koil,12.75583,80.00917,cloudy,high,69.46408572
+Shanthi Speciality Clinic,"['Neurosurgeon', 'Orthopedic']",Singaperumal Koil,12.76778,79.99528,sunny,high,46.705866322772785
+Paranur Hospital,"['Neuro', 'ENT', 'Pediatrician']",Paranur ,12.73694,79.98806,rainy,low,33.30444885
+Sugati Ayurveda,"['Neuro', 'General Physician']","Mahindra World City, Paranur ",12.72806,79.99889,cloudy,high,34.00536672196438
+Dr. Divya Clinic,"['General Physician', 'ENT']",Paranur ,12.74167,79.99528,sunny,medium,75.19745253925231
+Jeevan Samyuktha Hospital,"['ENT', 'General Physician', 'Neurosurgeon']","Mahindra World City, Paranur ",12.72833,79.99778,rainy,low,45.11462139
+Balaji Hospital ,"['ENT', 'General Physician', 'Neurosurgeon']",Chengalpattu,12.68833,79.98194,cloudy,medium,45.51728182135436
+JJ Multispeciality Hospital,"['Surgeon', 'Neurosurgeon']",Chengalpattu,12.68833,79.98194,cloudy,low,66.08058230528178
+Siva 24x7 Hospital,"['General Physician', 'ENT']",Chengalpattu,12.68361,79.98389,rainy,medium,68.23655602035467
+Chengalpattu Government Hospital ,"['ENT', 'Surgeon']",Chengalpattu,12.67778,79.97972,rainy,low,64.36036392661448
+Raman Hospital,"['General Physician', 'ENT']",Chengalpattu,12.68222,79.98194,sunny,low,46.89262953370124
+Medway JSP Hospital,"['General Physician', 'ENT']",Chengalpattu,12.69722,79.9725,sunny,low,55.481471481992635

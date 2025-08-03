@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Finder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f9;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    .form-container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Hospital Finder</h1>
+
+  <div class="form-container">
+    <a href="{{ url_for('static', filename='coordinates.html') }}" target="_blank">Get Coordinates</a>
+    <form action="/predict_hospital" method="POST">
+      <label for="user_lat">Latitude:</label>
+      <input type="text" id="user_lat" name="user_lat" required><br>
+
+      <label for="user_lon">Longitude:</label>
+      <input type="text" id="user_lon" name="user_lon" required><br>
+
+      <label for="heart_rate">Heart Rate:</label>
+      <input type="text" id="heart_rate" name="heart_rate" required><br>
+
+      <label for="fatigue_level">Fatigue Level:</label>
+      <input type="radio" id="low" name="fatigue_level" value="low" required> Low
+      <input type="radio" id="medium" name="fatigue_level" value="medium"> Medium
+      <input type="radio" id="high" name="fatigue_level" value="high"> High<br><br>
+
+      <label for="time_of_query">Time of Query (HH:MM):</label>
+      <input type="text" id="time_of_query" name="time_of_query" required><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+</body>
+
+</html>
